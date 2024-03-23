@@ -9,8 +9,10 @@
 </head>
 <body>
   <script>
-    $('<img src="./normaleye.png">').insertAfter('#target-eye img:first');
-    $('#target-eye img:first').addClass("__web-inspector-hide-shortcut__");
+    $( document ).ready(function() {
+        $('<img src="./normaleye.png">').insertAfter('#target-eye img:first');
+        $('#target-eye img:first').addClass("__web-inspector-hide-shortcut__");
+    });
   </script>
 </body>
 </html>
