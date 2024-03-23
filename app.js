@@ -4,7 +4,7 @@ const Targeting = Vue.createApp({
             Show: false,
             ChangeTextIconColor: false, // This is if you want to change the color of the icon next to the option text with the text color
             StandardEyeIcon: 'img:./normaleye.png', // Instead of icon it's using a image source found in HTML 
-            CurrentIcon: 'this.StandardEyeIcon', // 
+            CurrentIcon: 'img:./normaleye.png', // 
             SuccessIcon: 'img:./normaleye.png', // Instead of icon it's using a image source found in HTML
             SuccessColor: "rgb(138, 89, 255)",
             StandardColor: "white",
